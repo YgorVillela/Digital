@@ -1,0 +1,10 @@
+package br.com.fiap.singleton;
+
+import java.util.Properties;
+
+public class Singleton {
+
+	private static Properties p;
+	private static final String ARQ = "/arquivo.properties"
+	
+}

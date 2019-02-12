@@ -1,0 +1,14 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.singleton.ConfiguracaoSingleton;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// recuperar a configuração de idioma
+		String idioma = ConfiguracaoSingleton.getInstance().getProperty("chave");
+		System.out.println(idioma);
+
+	}
+
+}

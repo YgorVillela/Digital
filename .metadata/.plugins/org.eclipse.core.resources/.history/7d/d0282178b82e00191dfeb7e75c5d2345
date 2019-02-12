@@ -1,0 +1,27 @@
+package br.com.fiap.bo;
+
+import java.util.Scanner;
+
+import br.com.fiap.to.EstoqueTO;
+
+public class EstoqueBO {
+
+	
+	public EstoqueTO consultarProduto(int cod){
+		int codProduto = 0;
+		Scanner teclado = new Scanner(System.in);
+		EstoqueTO to = new EstoqueTO();
+		
+		do {
+			switch(codProduto) {
+			case 401:
+				System.out.println("Entre com o código do produto:");
+			}
+			
+		}while(cod != 404);
+		return null;
+		
+		
+	}
+	
+}

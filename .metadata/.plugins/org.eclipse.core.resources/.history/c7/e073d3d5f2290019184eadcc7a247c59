@@ -1,0 +1,49 @@
+package br.com.fiap.loja.TerminalConsulta;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+
+		int cod = 0;
+
+		
+		JOptionPane.showMessageDialog(null, "Bem-vindo a Loja 4000");
+		
+		
+		Calendar data = new GregorianCalendar(2018, Calendar.FEBRUARY, 06);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy hh:mm");
+		
+		JOptionPane.showMessageDialog(null, "Data de hoje: "+ sdf.format(data.getTime()));
+		
+		JOptionPane.showMessageDialog(null,"Código 401 - camiseta branca " 
+		+ "Código 402 - Camiseta azul " + "Código 402 - Camiseta azul");
+		
+		
+		JOptionPane.showInputDialog("Entre com o código da camiseta");
+		
+		switch (cod) {
+		case 401:
+			JOptionPane.showMessageDialog(null,"Código 401 - Camiseta branca");
+		break;
+		case 402:
+			JOptionPane.showMessageDialog(null,"Código 402 - Camiseta azul");
+		break;
+		case 403:
+			JOptionPane.showMessageDialog(null,"Código 403 - Camiseta rosa");
+		break;
+		default:
+			System.err.println("Produto não encontrado");
+			break;
+		}
+		
+		
+	}
+
+}

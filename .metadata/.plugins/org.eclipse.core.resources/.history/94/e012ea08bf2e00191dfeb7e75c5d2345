@@ -1,0 +1,26 @@
+package br.com.fiap.teste;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.bo.EstoqueBO;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		EstoqueBO bo = new EstoqueBO();
+		int cod = 0;
+		Calendar data = Calendar.getInstance();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		do {
+			cod = Integer.parseInt(JOptionPane.showInputDialog("digite o código do produto: "));
+
+			JOptionPane.showMessageDialog(null, bo.consultarProduto(cod));
+
+		} while (cod != 404);
+	}
+}

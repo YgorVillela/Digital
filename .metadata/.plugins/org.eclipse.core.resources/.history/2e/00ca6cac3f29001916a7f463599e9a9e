@@ -1,0 +1,16 @@
+package br.com.fiap.revisao.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Teste {
+	public static void main(String[] args) {
+		//criar uma lista
+		
+		List<Pessoa> lista = new ArrayList<Pessoa>();
+		
+		//adicionar um elemento na lista
+		
+		lista.add(new Funcionario("Ygor"));
+	}
+}

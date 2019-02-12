@@ -1,0 +1,23 @@
+package br.com.fiap.teste;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.bo.EstoqueBO;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		EstoqueBO bo = new EstoqueBO();
+		int cod = 0;
+
+
+		cod = Integer.parseInt(JOptionPane.showInputDialog("digite o código do produto: "));
+
+		JOptionPane.showMessageDialog(null, bo.consultarProduto(cod));
+
+	}
+
+}

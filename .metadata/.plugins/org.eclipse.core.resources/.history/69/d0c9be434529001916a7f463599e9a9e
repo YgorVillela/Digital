@@ -1,0 +1,14 @@
+package br.com.fiap.revisao.teste;
+
+import br.com.fiap.revisao.beans.Funcionario;
+
+public class FuncionarioTest {
+
+	public static void main(String[] args) {
+		//Instanciar um funcionário
+		Funcionario func = new Funcionario("AAAA");
+		//Atribuir uma data de admissão
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package br.com.fiap.teste;
+
+import java.util.logging.Logger;
+
+import br.com.fiap.singleton.ConfiguracaoSingleton;
+
+public class Teste {
+
+	private static Logger log = Logger.getLogger(Teste.class);
+	
+	public static void main(String[] args) {
+		// recuperar a configuração de idioma
+		
+		
+		
+		String idioma = ConfiguracaoSingleton.getInstance().getProperty("idioma");
+		String ambiente = ConfiguracaoSingleton.getInstance().getProperty("ambiente");
+		System.out.println(idioma);
+		System.out.println(ambiente);
+	}
+
+}

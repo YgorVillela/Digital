@@ -1,0 +1,25 @@
+package br.com.fiap.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.bo.EstoqueBO;
+import br.com.fiap.singleton.Singleton;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		EstoqueBO bo = new EstoqueBO();
+		int cod = 0;
+		//Recuperar a configuração
+		String filial = Singleton.getInstance().getProperty("filial");
+		
+		System.out.println("Bem-vindo a " + filial);
+		do {
+			cod = Integer.parseInt(JOptionPane.showInputDialog("digite o código do produto: "));
+
+			JOptionPane.showMessageDialog(null, bo.consultarProduto(cod));
+
+		} while (cod != 404);
+	}
+}

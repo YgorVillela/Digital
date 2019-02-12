@@ -1,0 +1,22 @@
+package br.com.fiap.revisao.beans;
+
+public class Pessoa {
+
+	private String nome;
+
+	//1 - Mesmo nome da classe
+	//2 - Não tem retorno(nem void)
+	//
+	public Pessoa() {
+		super();
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+}

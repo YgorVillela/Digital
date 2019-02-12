@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+F:\2TDSA\2TDSA-JAVA-WEB\.metadata\.plugins\org.eclipse.jdt.core
+666741950.index
+1705576708.index
+24831126.index
+1652596061.index
+1408480998.index

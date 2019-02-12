@@ -1,0 +1,10 @@
+package br.com.fiap.bo;
+
+public class EstoqueBO {
+
+	
+	public void consultarProduto(int codProduto){
+		
+	}
+	
+}
