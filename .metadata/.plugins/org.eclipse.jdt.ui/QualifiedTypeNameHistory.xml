@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="br.com.fiap.revisao.beans.Genero"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.com.fiap.singleton.ConfiguracaoSingleton"/>
+<fullyQualifiedTypeName name="br.com.fiap.singleton.Singleton"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.ImpostoBOStub.CalcularIRPFResponse"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.MessageBox"/>
+<fullyQualifiedTypeName name="org.apache.axis2.engine.AxisError"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.UriBuilder"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="br.com.fiap.singleton.EntityManagerFactorySingleton"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.InternalServerErrorException"/>
+<fullyQualifiedTypeName name="org.glassfish.jersey.client.ClientConfig"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.ClientRequestContext"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.ClientResponse"/>
+<fullyQualifiedTypeName name="br.com.fiap.to.Categoria"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 </qualifiedTypeNameHistroy>

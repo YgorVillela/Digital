@@ -1,7 +1,0 @@
-package br.com.fiap.revisao.beans;
-
-public class Funcionario extends Pessoa {
-
-	
-	
-}

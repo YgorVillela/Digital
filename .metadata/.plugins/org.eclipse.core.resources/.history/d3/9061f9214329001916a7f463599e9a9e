@@ -1,8 +1,0 @@
-package br.com.fiap.revisao.dao;
-
-public interface PessoaDAO {
-	
-	//assinaturas dos métodos
-	void gravar(Pessoa pessoa);
-	
-}
